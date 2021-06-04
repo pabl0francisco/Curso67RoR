@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        /*CSS reset settings here*/
+        
+        * {
+            margin: 20px;
+            padding: 0px;
+        }
+        
+        #wrapper {
+            width: 800px;
+            background-color: silver;
+            margin: 0px;
+            padding: 10px;
+        }
+        
+        #header {
+            width: 750px;
+            height: 150px;
+            background-color: green;
+        }
+        
+        #navigation {
+            height: 240px;
+            width: 200px;
+            background-color: blue;
+            display: inline-block;
+            vertical-align: top;
+        }
+        
+        #main_content {
+            min-height: 100px;
+            width: 520px;
+            background-color: red;
+            height: 300px;
+            margin: 20px 0px 0px 0px;
+            display: inline-block;
+            vertical-align: top;
+        }
+        
+        .subcontents {
+            min-height: 130px;
+            width: 130px;
+            background-color: yellow;
+            margin: 20px;
+            float: right;
+        }
+        
+        #advertisement {
+            min-height: 90px;
+            width: 475px;
+            background-color: purple;
+            float: left;
+            margin: 0px 20px 0px 25px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="header"></div>
+        <div id="navigation"></div>
+        <div id="main_content">
+            <div class="subcontents"></div>
+            <div class="subcontents"></div>
+            <div class="subcontents"></div>
+            <div id="advertisement"></div>
+        </div>
+    </div>
+</body>
+
+</html>

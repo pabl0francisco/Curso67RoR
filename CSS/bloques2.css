@@ -1,0 +1,44 @@
+* {
+    outline: 1px dotted rgb(255, 0, 0);
+}
+
+#cuerpo {
+    height: 600px;
+    width: 600px;
+    background-color: rgb(194, 202, 124);
+    margin: 50px;
+}
+
+.figuras {
+    height: 35px;
+    width: 45px;
+    padding: 30px;
+    margin-left: 10px;
+}
+
+#cuadro1 {
+    height: 35px;
+    width: 45px;
+    padding: 30px;
+    margin-left: 10px;
+    background-color: ghostwhite;
+}
+
+.centrado {
+    vertical-align: center;
+}
+
+#up {
+    height: 100px;
+    width: 400px;
+    background-color: darkgray;
+    margin-left: 100px;
+}
+
+#contenido {
+    height: 480px;
+    width: 500px;
+    background-color: darkgray;
+    margin-top: 10px;
+    margin-left: 50px;
+}

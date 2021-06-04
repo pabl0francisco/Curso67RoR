@@ -1,0 +1,67 @@
+* {
+    outline: 1px dotted red;
+}
+
+#cuerpo {
+    margin: 40px;
+    height: 1020px;
+    width: 1030px;
+    background-color: rgb(33, 91, 109);
+    padding: 20px;
+}
+
+.foto1 {
+    height: 166px;
+    width: auto;
+}
+
+.logos {
+    height: 35px;
+    width: auto;
+}
+
+#barra {
+    height: 20px;
+    width: 990px;
+    background-color: rgb(33, 91, 109);
+    margin-left: 20px;
+}
+
+#cuadro1 {
+    height: 300px;
+    width: 360px;
+    background-color: rgb(81, 255, 0);
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+#cuadro2 {
+    height: 300px;
+    width: 607px;
+    background-color: rgb(189, 45, 45);
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 15px;
+    vertical-align: top;
+}
+
+.subcontents {
+    min-height: 450px;
+    width: 300px;
+    background-color: yellow;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.centrado {
+    text-align: center;
+}
+
+#final {
+    height: 70px;
+    width: 990px;
+    background-color: rgb(33, 91, 109);
+    margin-left: 20px;
+}
