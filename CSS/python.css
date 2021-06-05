@@ -57,7 +57,7 @@
 #nav {
     color: #4697dd;
     background-color: rgb(52, 150, 230);
-    ;
+    padding: 10px;
     width: 900px;
     height: 50px;
     margin-left: 34px;
@@ -65,7 +65,11 @@
     border-bottom-color: solid;
 }
 
-.ss {}
+.ss {
+    font-size: 20px;
+    color: aliceblue;
+    margin-left: 15px;
+}
 
 .up {
     color: white;

@@ -1,5 +1,48 @@
+* {
+    outline: 1px dotted red;
+}
+
 #cuerpo {
-    height: 600px;
-    width: auto;
-    background-color: cadetblue;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+}
+
+#relleno1 {
+    width: 95%;
+    background-color: rgb(216, 216, 216);
+    padding: 15px;
+}
+
+#relleno2 {
+    width: 95%;
+    background-color: rgb(216, 216, 216);
+    padding: 15px;
+}
+
+#relleno3 {
+    width: 95%;
+    background-color: rgba(237, 255, 133, 0.911);
+    padding: 15px;
+}
+
+@media only screen and (max-width: 480px) {
+    #tablet,
+    #pc {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+    #pc,
+    #telefono {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    #telefono,
+    #tablet {
+        display: none;
+    }
 }
