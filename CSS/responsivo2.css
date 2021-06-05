@@ -1,0 +1,100 @@
+/*CSS reset settings here*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* para mas ejercicios asi, nose cambia el width aca, sino que se cambia a % en @media*/
+
+#wrapper {
+    min-height: auto;
+    background-color: silver;
+    margin: 0px auto;
+    padding: 15px;
+}
+
+#header {
+    width: 100%;
+    min-height: 150px;
+    background-color: green;
+    margin-bottom: 15px;
+}
+
+#navigation {
+    min-height: 300px;
+    width: 21%;
+    background-color: blue;
+    display: inline-block;
+}
+
+#main_content {
+    min-height: ;
+    width: 74%;
+    background-color: red;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 33px;
+}
+
+.subcontents {
+    min-height: 190px;
+    width: 29%;
+    background-color: yellow;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 3%;
+}
+
+#advertisement {
+    min-height: 120px;
+    width: 94.5%;
+    background-color: purple;
+    margin: 3%;
+}
+
+@media only screen and (max-width:480px) {
+    #header {
+        width: 100%;
+    }
+    #navigation {
+        display: none;
+    }
+    #main_contents {
+        width: 74%;
+    }
+    .subcontents {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:1023px) and (min-width:481px) {
+    #header {
+        width: 100%;
+    }
+    #navigation {
+        display: none;
+    }
+    #main_contents {
+        width: 74%;
+    }
+    .subcontents {
+        width: 45%;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    #header {
+        width: 100%;
+    }
+    #navigation {
+        width: 21%;
+    }
+    #main_contents {
+        width: 74%;
+    }
+    .subcontents {
+        width: 29%;
+    }
+}
