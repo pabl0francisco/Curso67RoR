@@ -19,7 +19,7 @@
     width: 100%;
     min-height: 150px;
     background-color: green;
-    margin-bottom: 15px;
+    margin-bottom: 3%;
 }
 
 #navigation {
@@ -30,12 +30,12 @@
 }
 
 #main_content {
-    min-height: ;
+    min-height: auto;
     width: 74%;
     background-color: red;
     display: inline-block;
     vertical-align: top;
-    margin-left: 33px;
+    margin-left: 4%;
 }
 
 .subcontents {
@@ -56,13 +56,14 @@
 
 @media only screen and (max-width:480px) {
     #header {
-        width: 100%;
+        width: 74%;
+        margin-left: 4%;
     }
     #navigation {
         display: none;
     }
     #main_contents {
-        width: 74%;
+        width: 75%;
     }
     .subcontents {
         width: 90%;
@@ -71,13 +72,14 @@
 
 @media only screen and (max-width:1023px) and (min-width:481px) {
     #header {
-        width: 100%;
+        width: 74%;
+        margin-left: 4%;
     }
     #navigation {
         display: none;
     }
     #main_contents {
-        width: 74%;
+        width: 75%;
     }
     .subcontents {
         width: 45%;
@@ -92,7 +94,7 @@
         width: 21%;
     }
     #main_contents {
-        width: 74%;
+        width: 75%;
     }
     .subcontents {
         width: 29%;
