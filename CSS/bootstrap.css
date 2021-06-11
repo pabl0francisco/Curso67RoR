@@ -1,0 +1,218 @@
+#contenido {
+    width: 1100px;
+    height: auto;
+    background-color: #ffffff;
+}
+
+#nav {
+    margin-left: 20px;
+    margin: 21px;
+}
+
+#jumbo {
+    width: 502px;
+    height: auto;
+    margin-left: 15px;
+}
+
+#socios {
+    margin-bottom: -8px;
+}
+
+#ula {
+    margin-left: 100px;
+}
+
+#segundo {
+    width: 1100px;
+    height: 350px;
+    background-color: rgba(163, 194, 212, 0.596);
+    margin-bottom: 30px;
+}
+
+.center {
+    text-align: center;
+}
+
+#vision {
+    width: 900px;
+    height: auto;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin-left: 100px;
+}
+
+#nosotros {
+    width: 900px;
+    height: auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.76);
+    margin-left: 100px;
+}
+
+#tercero {
+    width: 1100px;
+    height: 500px;
+    background-color: rgb(205, 233, 255);
+}
+
+#cubito {
+    width: 450px;
+    height: 400px;
+    background-color: rgba(203, 216, 240, 0.767);
+    margin: 40px;
+    display: inline-block;
+}
+
+#beneficios {
+    width: 350px;
+    height: 300px;
+    background-color: rgba(203, 216, 240, 0.767);
+    display: inline-block;
+    margin: 87px;
+    margin-left: 44px;
+    vertical-align: top;
+}
+
+#cuarto {
+    width: 1100px;
+    height: 500px;
+    background-color: rgb(242, 249, 255);
+}
+
+#quinto {
+    width: 1100px;
+    height: auto;
+    background-color: rgb(230, 230, 230);
+    margin-top: 30px;
+}
+
+#cubo {
+    width: 350px;
+    height: 250px;
+    background-color: rgba(203, 216, 240, 0.767);
+    padding: 37px;
+}
+
+#cubodos {
+    width: 900px;
+    height: 200px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.76);
+    margin-left: 100px;
+}
+
+#trabaja {
+    width: 500px;
+    height: auto;
+    background-color: rgb(220, 234, 248);
+    margin-left: 200px;
+}
+
+#sexto {
+    width: 1100px;
+    height: 500px;
+    background-color: rgba(201, 223, 236, 0.76);
+    margin-top: 30px;
+}
+
+#anuncios {
+    width: 600px;
+    height: auto;
+    background-color: rgb(220, 234, 248);
+    margin-left: 244px;
+}
+
+#fondo {
+    width: 900px;
+    height: 230px;
+    background-color: dimgray;
+    margin-left: 100px;
+}
+
+.imagen {
+    width: 150px;
+    height: 150px;
+    background-color: darkgray;
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+#uno {
+    margin-left: 178px;
+}
+
+#septimo {
+    width: 1100px;
+    height: 432px;
+    background-color: rgba(201, 234, 236, 0.76);
+    padding: 10px;
+}
+
+#contacto {
+    height: 500px;
+    width: 700px;
+    margin-left: 200px;
+}
+
+#boton {
+    margin-left: 200px;
+    width: 250px;
+    height: 50px;
+    margin-top: -24px;
+}
+
+#mensaje {
+    width: 500px;
+    height: 162px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 100px;
+}
+
+#titulo {
+    margin-left: 100px;
+}
+
+#semifinal {
+    width: 1100px;
+    height: 200px;
+    background-color: rgb(37, 104, 155);
+    padding: 40px;
+}
+
+#octavo {
+    width: 400px;
+    height: 100px;
+    background-color: rgb(178, 204, 224);
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.fin {
+    width: 50px;
+    height: 50px;
+}
+
+#tercerfinal {
+    width: 300px;
+    height: 100px;
+    background-color: rgb(178, 204, 224);
+    display: inline-block;
+    margin-left: 30px;
+    vertical-align: top;
+}
+
+.boton {
+    margin: 7px;
+    margin-left: 116px;
+}
+
+#final1 {
+    width: 220px;
+    height: 100px;
+    background-color: dimgray;
+    vertical-align: top;
+    display: inline-block;
+}
